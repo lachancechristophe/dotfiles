@@ -1,0 +1,14 @@
+zone "loops.lan" {
+    type master;
+    file "/etc/bind/db.loops.lan";
+};
+
+zone "barres.lan" {
+    type master;
+    file "/etc/bind/db.barres.lan";
+};
+
+zone "56.168.192.in-addr.arpa" {
+    type master;
+    file "/etc/bind/db.192";
+};
