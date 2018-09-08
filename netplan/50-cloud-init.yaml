@@ -15,5 +15,5 @@ network:
             dhcp4: false
             nameservers:
                 addresses: [192.168.56.2]                # Private IP for ns1
-                search: [loops.lan, barres.lan]  # DNS 
+                search: [loops.lan, barres.lan, phpmyadmin.lan]  # DNS 
     version: 2

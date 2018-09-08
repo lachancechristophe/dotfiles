@@ -8,6 +8,11 @@ zone "barres.lan" {
     file "/etc/bind/db.barres.lan";
 };
 
+zone "phpmyadmin.lan" {
+    type master;
+    file "/etc/bind/db.phpmyadmin.lan";
+};
+
 zone "56.168.192.in-addr.arpa" {
     type master;
     file "/etc/bind/db.192";
